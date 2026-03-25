@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-02-25_1344",
+    "name": "ujromai",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -41,7 +41,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 27,
+    "uniqCompNum": 28,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -510,6 +510,30 @@
           "_anchor": "header2-1",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676",
+              "text-align": "left"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Megnyertük a pályázatot!</h2>\n                <h4 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">A FEAK Független Energetikai Adatközpont Zártkörűen Működő Részvénytársaság nevében eljáró Nemzeti Energetikai Ügynökség Zrt\n mint lebonyolító a Budapest, Silvánus sétány 11, Társasház (adószám: 28019437-1-41, székhelycíme: 1031 Budapest, Silvánus sétány 11.) (a továbbiakban: Kedvezményezett) FEAK-89402021 azonosítójú Pályázatát elbírálta, és támogatásra alkalmasnak minősítette.&nbsp;<div>\n</div><div>\" Kedvezményezett a Beruházás teljeskörű megvalósítására 29 998 080 Ft, azaz huszonkilencmillió-\n</div><div>kilencszázkilencvennyolcezer-nyolcvan forint összegű, vissza nem térítendő támogatásra jogosult\"\n<br></div><br><div>A támogatói dokumentum letölthető innen: <a href=\"assets/files/okirat.pdf\" target=\"_blank\">okirat.pdf</a>&nbsp;<br></div></h4>\n<p class=\"text\">Tisztelettel:<br><br>\n\nBéresné Juhász Gabriella<br>\nRómai 1024 Társasház Közös képviselő<br>\n06203586178</p>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n<hr style=\"width:66%; border: 0; border-top: 4px solid green; margin: 10;\">\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "content4-r",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "veS2Nw6I52",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
